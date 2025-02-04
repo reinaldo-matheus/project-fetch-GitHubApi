@@ -125,18 +125,19 @@ main {
 }
 
 /* REPOSITORIES */
-.container .profile-data .repositories h2 {
+.container .profile-data .repositories-events h2 {
+    font-size: 20px;
     margin-bottom: 30px;
     text-align: center;
 }
 
-.container .profile-data .repositories ul {
+.container .profile-data .repositories-events ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.container .profile-data .repositories ul li a {
+.container .profile-data .repositories-events ul li a {
     padding: 20px;
     border: 1px solid grey;
     margin: 20px;
@@ -145,7 +146,7 @@ main {
     transition: 0.3s ease-in-out;
 }
 
-.container .profile-data .repositories ul li a:hover {
+.container .profile-data .repositories- events ul li a:hover {
     background-color: hotpink;
     color: #fff
 }
